@@ -15,7 +15,8 @@ body {
   align-items: center;
 }
 
-#todo-input, #todo-date {
+#todo-input,
+#todo-date {
   font-size: 15px;
   padding: 10px 5px;
 }

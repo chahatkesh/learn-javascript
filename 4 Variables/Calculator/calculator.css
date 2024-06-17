@@ -12,7 +12,7 @@
   align-items: center;
 }
 .container {
-  padding: 12px 0;
+  padding: 8px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,13 +22,13 @@
 }
 .btn-container {
   display: flex;
-  padding: 8px 15px;
-  gap: 32px;
+  padding: 8px 12px;
+  gap: 18px;
   justify-content: center;
   align-items: center;
 }
 .btn {
-  width: 100px;
+  width: 75px;
   height: 48px;
   background-color: #f2f2f2;
   border: 0.5px solid black;
@@ -36,19 +36,19 @@
 }
 .btn1 {
   background-color: #81c784;
-  width: 364px;
+  width: 261px;
   height: 48px;
   border: 0.5px solid black;
   border-radius: 3px;
 }
 .btn2 {
-  width: 496px;
+  width: 354px;
   height: 48px;
   border: 0.5px solid black;
   border-radius: 3px;
 }
 .btn-r {
-  width: 100px;
+  width: 75px;
   height: 48px;
   background-color: #ff5050;
   border: none;
