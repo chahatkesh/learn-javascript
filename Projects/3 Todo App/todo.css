@@ -1,32 +1,52 @@
 body {
-  font-family: Arial;
+  font-family: poppins;
 }
 
 #main-heading {
   text-align: center;
 }
-
+.abc {
+  display: flex;
+  gap: 18px;
+  height: 40px;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: azure;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
 .grid-container {
-  display: grid;
-  grid-template-columns: 200px 150px 100px;
-  column-gap: 10px;
-  row-gap: 10px;
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  height: 40px;
+}
+.todo-container {
+  margin-top: 12px;
+  gap: 12px;
+}
+.grid-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 #todo-input,
 #todo-date {
-  font-size: 15px;
-  padding: 10px 5px;
+  font-size: 14px;
+  padding: 8px 18px;
 }
 
 .btn-delete {
-  background-color: rgb(87, 4, 4);
+  background-color: rgb(255, 0, 0);
   color: white;
   border: none;
-  border-radius: 10px;
-  padding: 15px 0px;
+  border-radius: 8px;
+  padding: 8px 18px;
   cursor: pointer;
 }
 
@@ -34,7 +54,7 @@ body {
   background-color: rgb(5, 119, 19);
   color: white;
   border: none;
-  border-radius: 10px;
-  padding: 15px 0px;
+  border-radius: 8px;
+  padding: 8px 18px;
   cursor: pointer;
 }

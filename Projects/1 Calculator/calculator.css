@@ -1,23 +1,71 @@
-#calculator {
-  border: 1px solid rgb(187, 183, 183);
-  border-radius: 5px;
-  width: 200px;
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#display {
-  margin: 10px;
-  width: 85%;
-  font-size: 25px;
-}
-
-.button-container {
+.page {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
-
-.button {
-  width: 45px;
-  height: 45px;
-  margin: 3px;
+.container {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.btn-container {
+  display: flex;
+  padding: 8px 12px;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 75px;
+  height: 48px;
+  background-color: #f2f2f2;
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+.btn1 {
+  background-color: #81c784;
+  width: 261px;
+  height: 48px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+.btn2 {
+  width: 354px;
+  height: 48px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+.btn-r {
+  width: 75px;
+  height: 48px;
+  background-color: #ff5050;
+  border: none;
+  border-radius: 3px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.btn1:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+.btn-r:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
 }
